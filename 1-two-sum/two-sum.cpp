@@ -4,6 +4,17 @@ Solution() {
         ios_base::sync_with_stdio(false);
         cin.tie(NULL);
     }
+    // if array is sorted
+    // vector<int> twoSum(vector<int>& nums, int target) {
+    //     int i=nums[0];
+    //     int j=nums[nums.size()-1];
+
+    //     if((i+j)=target){
+    //         return {i,j}
+    //     }
+    //     j--;
+    // }
+
     vector<int> twoSum(vector<int>& nums, int target) {
         unordered_map<int, int> mp;
 
